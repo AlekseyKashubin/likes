@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <!-- Css styleSheet connection -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- nav bar section  -->
+    <div class="navbar">
+        <h1>Network</h1>
+    </div>
+    <!-- title section  -->
+    <div class="top-title">
+        <h2>Your Feed</h2>
+    </div>
+    <!-- main container section -->
+    <div class="container-main">
+        <!-- right column section -->
+        <div class="colunm1">
+            <!-- avatar card section -->
+            <div class="my-profile">
+                <img src="images/user-circle.png" alt="picture of Avatar">
+                <p class="avatar">Add a avatar</p>
+                <p class="myname">James Doe</p>
+            </div>
+        </div>
+        <!-- left column section -->
+        <div class="column2">
+            <!-- user card 1 section -->
+            <div class="user-card">
+                <div class="top-row">
+                    <p id="user">Neil M</p>
+                    <div class="likebutton">
+                        <p class="like-counter">0 like(s)</p>
+                        <button onclick="likeCounter()">Like</button>
+                    </div>
+                </div>
+                <div class="bottom-row">
+                    <p class="filler">I just set up this new discord bot,let me know what you all think.<a>link</a></p>
+                </div>
+            </div>
+            <!-- user card 2 section -->
+            <div class="user-card">
+                <div class="top-row">
+                    <p id="user">Nichole K</p>
+                    <div class="likebutton">
+                        <p class="like-counter2">0 like(s)</p>
+                        <button onclick="likeCounter2()">Like</button>
+                    </div>
+                </div>
+                <div class="bottom-row">
+                    <p class="filler">Just finished my <a>next comic</a>, check it out.</p>
+                </div>
+            </div>
+            <!-- user card 3 section -->
+            <div class="user-card">
+                <div class="top-row">
+                    <p id="user">Jim R</p>
+                    <div class="likebutton">
+                        <p class="like-counter3">0 like(s)</p>
+                        <button onclick="likeCounter3()">Like</button>
+                    </div>
+                </div>
+                <div class="bottom-row">
+                    <p class="filler">I cant stop listening to the <a>new album.</a><br>Who else is liking it?</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- javaScript connection -->
+    <script src="script.js"></script>
+</body>
+
+</html>
